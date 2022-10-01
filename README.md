@@ -1,4 +1,4 @@
 # iPhone Bypass Checker
 Checks if an iDevice is activation bypassed.
 
-Usage: Run script, plug device in and press enter to check activation.
+Usage: Download as zip or git clone, run script, plug device in and press enter to check activation status.
