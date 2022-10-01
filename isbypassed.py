@@ -1,6 +1,6 @@
 import subprocess
 print("If you just got this device and didn't reboot it, you should reboot it now, some bypasses can hide themselves before you reboot.")
-input("Press enter to continue ")
+input("Press enter to continue")
 p1 = subprocess.Popen(["cmd", "/C", "lib\ideviceactivation.exe state"], stdout = subprocess.PIPE)
 statusphone = p1.communicate()[0]
 if statusphone == b'ActivationState: Activated\r\n':
