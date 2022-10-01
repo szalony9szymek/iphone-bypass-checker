@@ -13,3 +13,4 @@ elif statusphone == b'No device found, is it plugged in?\r\n':
     print("Device doesn't seem to be connected")
 else:
     print("Error occured, please report this to the developer")
+input("Press enter to exit")
